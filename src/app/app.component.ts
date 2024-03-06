@@ -5,6 +5,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgFor } from '@angular/common';
+import { NgIf } from '@angular/common';
 
 //Material Imports
 import {MatButtonModule} from '@angular/material/button';
@@ -23,6 +25,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
+    NgFor,
+    NgIf,
     
     //Material Imports
     MatButtonModule,
