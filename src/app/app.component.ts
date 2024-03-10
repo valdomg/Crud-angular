@@ -1,7 +1,7 @@
 //Angular Imports
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { BrowserModule } from '@angular/platform-browser';
+
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgFor } from '@angular/common';
@@ -29,7 +29,6 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 
     //Angular Imports
     RouterOutlet,
-    BrowserModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,

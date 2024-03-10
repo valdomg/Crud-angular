@@ -4,6 +4,7 @@ import { NgIf } from '@angular/common';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
 
+
 import { ClienteService } from '../cliente.service';
 import { Cliente } from '../models/Cliente.model';
 import { Router } from '@angular/router';
@@ -12,10 +13,12 @@ import { Router } from '@angular/router';
   selector: 'app-atualizar-cliente',
   standalone: true,
   imports: [
+    
     NgIf,
     NgFor,
     CommonModule,
     RouterLink,
+    
   ],
   templateUrl: './atualizar-cliente.component.html',
   styleUrl: './atualizar-cliente.component.css'
