@@ -7,6 +7,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgFor } from '@angular/common';
 import { NgIf } from '@angular/common';
 import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
+
+
 //Components
 import { MenuComponent } from './menu/menu.component';
 import { AtualizarClienteComponent } from './atualizar-cliente/atualizar-cliente.component';
@@ -33,6 +36,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     NgFor,
     NgIf,
     CommonModule,
+    RouterLink,
     
     //Components
     MenuComponent,
